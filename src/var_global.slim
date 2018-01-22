@@ -1,0 +1,60 @@
+/ ### !important créer les variable depuis source.json
+-require 'json'
+-file = File.read('source.json')
+-$objso = JSON.parse(file)
+
+-$vartxtcolor  = "#DF131F"
+-$addLogo      = true
+-$patPk = {# ...,
+  bf: "cuisine/decoupe/",
+  bv: "keuken/snijden/",
+  de: "kuche/schneiden/",
+  fr: "cuisine/decoupe/",
+  nl: "keuken/snijden/",
+  uk: "kitchen/cutting/",
+  }
+-$lib = {# ...,
+  bf: "apericoupe",
+  bv: "apericoupe",
+  de: "apericoupe",
+  fr: "apericoupe",
+  nl: "apericoupe",
+  uk: "apericoupe",
+  }
+
+-$refPk = "2750115"
+
+-$campaign = "&utm_campaign=#{$objso["date"]}_#{$objso["campaignName"]}"
+-$miror    = "News_"+"#{$objso["campaignNameM"]}_#{$objso["date"]}"
+/ layout
+-$abspath = false
+-$srcAbs  = "http://www.webdesignord.fr/domoti/TL/images/"
+-$srcRel  = "images/"
+
+-$white      = "#FFFFFF"
+-$varbgcolor = $white
+/ ID rayon
+- $IDray = { # ...,
+  fr: "",
+  bf: "",
+  bv: "",
+  nl: "",
+  de: "",
+  uk: ""}
+/ remplir si mention supplementaire
+- $legalplus = { # ...,
+  bf: "* L'Apéricoupe<sup>®</sup> au prix de 14.95€ au lieu de 19.95€. Durée limitée. Stocks Limités.",
+  bv: "* Apéricoupe<sup>®</sup> € 14,95 i.p.v. € 19,95. Beperkte stock.",
+  de: "* Apéricoupe<sup>®</sup> € 19,95 jetzt nur € 14,95. Solange der Vorrat reicht.",
+  nl: "* Apéricoupe<sup>®</sup> € 14,95 i.p.v. € 19,95. Beperkte stock.",
+  uk: "* Apéricoupe<sup>®</sup> £19.95 NOW £14.95 while stocks last!",
+  }
+
+/ LAYOUT
+- $shadLR_H = 1220
+
+/ main nav
+-$altunivers = ["CUISINE","ENTRETIEN ET RANGEMENT","SANTE ET BEAUTE","MAISON ET DECO","LOISIRS","VETEMENTS ET ACCESSOIRES"]
+
+/ code KDO footer
+- $code = "XXXX"

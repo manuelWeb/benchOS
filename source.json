@@ -1,0 +1,57 @@
+{
+  "date": "0118",
+  "campaignName": "OM_chauffage",
+  "campaignNameM": "OM_chauffage",
+  "title": {
+    "bf": "BF Découvrez notre sélection anti-froid !",
+    "bv": "BV Découvrez notre sélection anti-froid !",
+    "de": "DE Lorem ipsum dolor sit amet cum.",
+    "fr": "Découvrez la vidéo de notre offre du mois !",
+    "nl": "NL Enim, minima, ipsa blanditiis.",
+    "uk": "UK Assumenda delectus temporibus maxime!"
+  },
+  "head_doc": {
+    "bf": "",
+    "bv": "BV...Découvrez nos solutions pour lutter contre le froid et avoir enfin chaud en hiver !",
+    "de": "",
+    "fr": "Chauffage mobile et rapide Starlyf® au prix de 34.00€ au lieu de 39.00€ ! Profitez-en vite !",
+    "nl": "",
+    "uk": ""
+  },
+  "link": {
+    "patPk": {
+      "bf": "cuisine/decoupe/",
+      "bv": "keuken/snijden/",
+      "de": "kuche/schneiden/",
+      "fr": "vetements-accessoires/hiver/",
+      "nl": "keuken/snijden/",
+      "uk": "kitchen/cutting/"
+    },
+    "lib": {
+      "bf": "apericoupe",
+      "bv": "apericoupe",
+      "de": "apericoupe",
+      "fr": "chauffage-mobile-rapide-starlyf",
+      "nl": "apericoupe",
+      "uk": "apericoupe"
+    },
+    "refPk": "3414117"
+  },
+  "mention_plus": {
+    "bf": "",
+    "bv": "",
+    "de": "",
+    "fr": "* Le Chauffage mobile et rapide : starlyf®  au prix de 34.00€ au lieu de 39.00€. Durée limitée. Stocks Limités.",
+    "nl": "",
+    "uk": ""
+  },
+  "gift": {
+    "code": "DBWB",
+    "alt": ["Votre premier cadeau La Montre Pierre Cardin® OFFERTE Avec votre commande *", "Votre deuxième cadeau Une surprise bijou OFFERTE **"]
+  },
+  "layout": {
+    "shadLR_H": "1090"
+  },
+  "_comment": "",
+  "prix" : "..."
+}

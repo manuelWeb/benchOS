@@ -1,0 +1,63 @@
+/### ID rayon + txtPreHeader + $campaign
+-$title     = "Sie sparen €5 auf Apéricoupe®!"
+-$txtheader = "Angebot des Monats: Apericoupe statt € 19,95 jetzt nur € 14,95!"
+-$mirorLink = "https://tempsl.com/Newsletters/miroir/#{$miror}/DE/index.htm"
+/### do not change content link
+-$url       ="https://www.ideal-praktisch.de/de/"
+-$index     ="index.aspx"
+-$srcmedium =["?utm_source=NL&utm_medium=email","&utm_source=NL&utm_medium=email"]
+-$content   =["&utm_content=","url","garantie","livraison","paiement","cgv","contact","desabo","mentions_legales"]
+/### do not change footer
+-$haconfiance=["achat_confiance/","garanties.aspx","informations-livraison.aspx","paiement-securise.aspx","conditions-generales-de-vente.aspx","mentions-legales.aspx"]
+/### do not change mentions
+-$contactdesabo=["idealpractical_and_you/contact.aspx?val=A","animation/DesinscriptionNewsletter.aspx"]
+/ compact
+-rayon  = "boutique/rayon_evenement.aspx?urlLangue=fr&nbp=99&pg=0&evenement_id="
+-urlRay = "#{$url}#{rayon}#{$IDray[:de]}#{$srcmedium[1]}#{$content[0]}"
+-pdt    = ["0", "#{$patPk[:de]}#{$lib[:de]}/#{$refPk}.html"]
+
+/### content link ["logo", "accroche", "pdt", "prix", "bouton" ]
+- $s0_logo         = "#{$url}#{$index}#{$srcmedium[0]}#{$content[0]}logo#{$campaign}"
+
+- $s1c1_accroche      = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s1c2s1_accroche    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s1c2s2_lib         = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s2c1_lib_ergo_lame = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s2c2_price         = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}prix#{$campaign}"
+- $s3c1_tvCpSsEf      = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s3c2s1_pk          = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s3c2s2_video       = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c1_pk            = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s1c1_thumb1    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s1c3_thumb2    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s1c5_thumb3    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s3c1_thumb4    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s3c3_thumb5    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s3c5_thumb6    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c3_pk            = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s5_pk              = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s6_btn             = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}bouton#{$campaign}"
+
+/ alt + title
+- $alt_s1c1_accroche      = "PREIS des MONATS"
+- $alt_s1c2s1_accroche    = "UNSCHLAGBAR"
+- $alt_s1c2s2_lib         = "Ein neuer Verbündeter, um alles zu schneiden!"
+- $alt_s2c1_lib_ergo_lame = "Apericoupe®, Müheloses Schneiden, Ergonomischer Griff."
+- $alt_s2c2_price         = "Apericoupe statt € 19,95 jetzt nur € 14,95! SIE SPAREN €5."
+- $alt_s3c1_tvCpSsEf      = "Bekannt aus dem Fernsehen. Müheloses Schneiden."
+- $alt_s3c2s1_pk          = ""
+- $alt_s3c2s2_video       = ""
+- $alt_s4c1_pk            = ""
+- $alt_s4c2s1c1_thumb1    = "Wurst"
+- $alt_s4c2s1c3_thumb2    = "Käse"
+- $alt_s4c2s1c5_thumb3    = "Brot"
+- $alt_s4c2s3c1_thumb4    = "Gemüse"
+- $alt_s4c2s3c3_thumb5    = "Obst"
+- $alt_s4c2s3c5_thumb6    = "Eier"
+- $alt_s4c3_pk            = ""
+- $alt_s5_pk              = ""
+
+// changeVarName
+- $alt_s6_btn = "Nutzen Sie jetzt die Chance, Qualität zum Sparpreis!"
+// don't change
+- $alt_logo   = "IDEAL PRAKTISCH"

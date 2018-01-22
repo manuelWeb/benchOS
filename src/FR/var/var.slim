@@ -1,0 +1,45 @@
+/### change link + alt autre : cf source.json
+
+/### do not change
+-$mirorLink = "https://tempsl.com/Newsletters/miroir/#{$miror}/FR/index.htm"
+-$url       ="https://www.tempsl.fr/fr/";$urlCat ="https://www.tempsl.fr/cat/fr/"
+-$index     ="index.aspx"
+-$srcmedium =["?utm_source=NL&utm_medium=email","&utm_source=NL&utm_medium=email"]
+-$content   =["&utm_content=","url","garantie","livraison","paiement","contact","desabo"]
+/ compact
+-rayon  = "boutique/rayon_evenement.aspx?urlLangue=fr&nbp=99&pg=0&evenement_id="
+-urlRay = "#{$url}#{rayon}#{$IDray[:fr]}#{$srcmedium[1]}#{$content[0]}"
+-pdt    = ["0", "#{$objso["link"]["patPk"]["fr"]}#{$objso["link"]["lib"]["fr"]}/#{$objso["link"]["refPk"]}.html"]
+
+/### content link ["logo", "accroche", "pdt", "prix", "bouton" ]
+- $s0_logo          = "#{$url}#{$index}#{$srcmedium[0]}#{$content[0]}logo#{$campaign}"
+
+- $s1_title         = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s2c1s1c1_acc     = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s2c1s1c2_pdt     = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s2c1s2c1_logo    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}logo_pdt#{$campaign}"
+- $s2c1s2c2_seeOnTv = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}vuTv#{$campaign}"
+- $s2c1s2c3_pdt     = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s2c2_price       = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}price#{$campaign}"
+- $s3c1s1_plusPdt   = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}plusPdt#{$campaign}"
+- $s3c1s2_video     = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}voirVideo#{$campaign}"
+- $s3c2_pdt         = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4_thumb         = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s5_btn           = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}btn#{$campaign}"
+
+/ alt + title
+- $alt_s1_title         = "LE PRIX DU MOIS IMBATTABLE !"
+- $alt_s2c1s1c1_acc     = "Compact et mobile : l’efficacité du chauffage rapide Starlif®"
+- $alt_s2c1s1c2_pdt     = ""
+- $alt_s2c1s2c1_logo    = "Starlif® FAST HEATER"
+- $alt_s2c1s2c2_seeOnTv = "Vu à la TV"
+- $alt_s2c1s2c3_pdt     = ""
+- $alt_s2c2_price       = "34.00€ au lieu de 39.00€, GAGNEZ 5€."
+- $alt_s3c1s1_plusPdt   = "Chauffe jusqu'à 23 m2, programmable 12 heures, puissant, rapide."
+- $alt_s3c1s2_video     = "Voir la vidéo"
+- $alt_s3c2_pdt         = ""
+- $alt_s4_thumb         = "S'emporte et se branche n'importe où dans votre maison !"
+// changeVarName
+- $alt_s5_btn = "Vite, c’est le moment d’en profiter !"
+// don't change
+- $alt_logo   = "Temps L"

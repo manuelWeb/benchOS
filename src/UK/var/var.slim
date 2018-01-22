@@ -1,0 +1,63 @@
+/### ID rayon + txtPreHeader + $campaign
+-$title     = "Save £5 on the Apéricoupe®!"
+-$txtheader = "Benefit from this special monthly offer!  Apericoupe NOW £14.95 was £19.95!"
+-$mirorLink = "https://tempsl.com/Newsletters/miroir/#{$miror}/UK/index.htm"
+/### do not change content link
+-$url       ="https://www.ideal-practical.co.uk/uk/"
+-$index     ="index.aspx"
+-$srcmedium =["?utm_source=NL&utm_medium=email","&utm_source=NL&utm_medium=email"]
+-$content   =["&utm_content=","url","garantie","livraison","paiement","contact","desabo","CGV"]
+/### do not change footer
+-$haconfiance =["achat_confiance/","garanties.aspx","informations-livraison.aspx","paiement-securise.aspx","conditions-generales-de-vente.aspx"]
+/### do not change mentions
+-$contactdesabo=["idealpractical_and_you/contact.aspx?val=A","animation/DesinscriptionNewsletter.aspx"]
+/ compact
+-rayon  = "boutique/rayon_evenement.aspx?urlLangue=fr&nbp=99&pg=0&evenement_id="
+-urlRay = "#{$url}#{rayon}#{$IDray[:uk]}#{$srcmedium[1]}#{$content[0]}"
+-pdt    = ["0", "#{$patPk[:uk]}#{$lib[:uk]}/#{$refPk}.html"]
+
+/### content link ["logo", "accroche", "pdt", "prix", "bouton" ]
+- $s0_logo         = "#{$url}#{$index}#{$srcmedium[0]}#{$content[0]}logo#{$campaign}"
+
+- $s1c1_accroche      = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s1c2s1_accroche    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s1c2s2_lib         = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}accroche#{$campaign}"
+- $s2c1_lib_ergo_lame = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s2c2_price         = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}prix#{$campaign}"
+- $s3c1_tvCpSsEf      = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s3c2s1_pk          = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s3c2s2_video       = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c1_pk            = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s1c1_thumb1    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s1c3_thumb2    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s1c5_thumb3    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s3c1_thumb4    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s3c3_thumb5    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c2s3c5_thumb6    = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s4c3_pk            = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s5_pk              = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}pdt#{$campaign}"
+- $s6_btn             = "#{$url}#{pdt[1]}#{$srcmedium[0]}#{$content[0]}bouton#{$campaign}"
+
+/ alt + title
+- $alt_s1c1_accroche      = "Price of the month"
+- $alt_s1c2s1_accroche    = "unbeatable"
+- $alt_s1c2s2_lib         = "A new ally which cuts anything!"
+- $alt_s2c1_lib_ergo_lame = "Apericoupe®, ergonomic handle, stainless steel blade."
+- $alt_s2c2_price         = "Apericoupe NOW £14.95 was £19.95! SAVE £5."
+- $alt_s3c1_tvCpSsEf      = "As seen on TV. Cut effortlessly."
+- $alt_s3c2s1_pk          = ""
+- $alt_s3c2s2_video       = ""
+- $alt_s4c1_pk            = ""
+- $alt_s4c2s1c1_thumb1    = "Sausage"
+- $alt_s4c2s1c3_thumb2    = "Cheese"
+- $alt_s4c2s1c5_thumb3    = "Bread"
+- $alt_s4c2s3c1_thumb4    = "Vegetables"
+- $alt_s4c2s3c3_thumb5    = "Fruit"
+- $alt_s4c2s3c5_thumb6    = "Eggs"
+- $alt_s4c3_pk            = ""
+- $alt_s5_pk              = ""
+
+// changeVarName
+- $alt_s6_btn = "Be quick, take advantage of this offer now!"
+// don't change
+- $alt_logo   = "IDEAL PRACTICAL"
